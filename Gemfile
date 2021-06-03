@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/FeelThisMoment/chapt3sampleapp.
 
 ruby '2.7.3'
 
-# 1Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
+# 12Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 # Use sqlite3 as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
