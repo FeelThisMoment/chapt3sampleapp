@@ -345,3 +345,10 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 829)
 
 
+Started GET "/" for 127.0.0.1 at 2021-06-06 13:43:33 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/naz/.rvm/gems/ruby-2.7.3/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/naz/.rvm/gems/ruby-2.7.3/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.2ms | Allocations: 332)
+Completed 200 OK in 28ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 2435)
+
+
