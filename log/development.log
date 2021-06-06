@@ -331,3 +331,17 @@ ActionController::RoutingError (No route matches [GET] "/assets/users.self-877ae
   
 ActionController::RoutingError (No route matches [GET] "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css"):
   
+Started GET "/" for 127.0.0.1 at 2021-06-06 12:15:54 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/naz/.rvm/gems/ruby-2.7.3/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/naz/.rvm/gems/ruby-2.7.3/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.6ms | Allocations: 332)
+Completed 200 OK in 29ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 2435)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-06 12:15:56 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/naz/.rvm/gems/ruby-2.7.3/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/naz/.rvm/gems/ruby-2.7.3/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 16.4ms | Allocations: 215)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 829)
+
+
