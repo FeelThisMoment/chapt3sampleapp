@@ -22,6 +22,11 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'minitest-reporters', '>=1.4.3'
+# minitest gem for showing  red/green test raporting
+gem 'mini_backtrace'
+# gem for initialisation silens protocol errors
+gem 'guard'
+gem 'guard-minitest'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
