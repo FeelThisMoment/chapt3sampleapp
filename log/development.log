@@ -696,3 +696,1167 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 99ms (Views: 77.6ms | ActiveRecord: 0.0ms | Allocations: 7864)
 
 
+Started GET "/" for 127.0.0.1 at 2021-06-14 23:42:00 +0300
+  [1m[35m (68.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 13.8ms | Allocations: 226)
+  Rendered layout layouts/application.html.erb (Duration: 357.0ms | Allocations: 9601)
+Completed 500 Internal Server Error in 431ms (ActiveRecord: 0.0ms | Allocations: 12157)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all',
+    6:                                            'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:     <!--[if lt IE 9]>
+   10:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  
+app/views/layouts/application.html.erb:7
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-14 23:42:24 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 31.2ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 53.5ms | Allocations: 7101)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 0.0ms | Allocations: 7581)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all',
+    6:                                            'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:     <!--[if lt IE 9]>
+   10:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-06-14 23:42:50 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 167.4ms | Allocations: 3300)
+Completed 200 OK in 179ms (Views: 177.4ms | ActiveRecord: 0.0ms | Allocations: 4402)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-14 23:42:54 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 130)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 3097)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 3605)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-14 23:43:15 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 45.5ms | Allocations: 7323)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.0ms | Allocations: 8376)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all',
+    6:                                            'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:     <!--[if lt IE 9]>
+   10:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-06-14 23:45:16 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 7328)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms | Allocations: 8393)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all',
+    6:                                            'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:     <!--[if lt IE 9]>
+   10:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-06-14 23:46:30 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 6999)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 7346)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all',
+    6:                                            'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:     <!--[if lt IE 9]>
+   10:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-06-14 23:46:45 +0300
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.7ms | Allocations: 226)
+  Rendered layout layouts/application.html.erb (Duration: 100.3ms | Allocations: 9601)
+Completed 500 Internal Server Error in 143ms (ActiveRecord: 0.0ms | Allocations: 12157)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all',
+    6:                                            'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:     <!--[if lt IE 9]>
+   10:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  
+app/views/layouts/application.html.erb:7
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-14 23:48:29 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 7101)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms | Allocations: 7581)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all',
+    6:                                            'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:     <!--[if lt IE 9]>
+   10:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-06-14 23:52:45 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 7324)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms | Allocations: 8382)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all',
+    6:                                            'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+    9:     
+   10:   </head>
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:01:41 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 11.2ms | Allocations: 3731)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 3796)
+Completed 500 Internal Server Error in 35ms (Allocations: 4861)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    14:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:01:44 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3594)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3658)
+Completed 500 Internal Server Error in 13ms (Allocations: 4005)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    14:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:03:20 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 7327)
+Completed 500 Internal Server Error in 34ms (Allocations: 8392)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:     <%= csrf_meta_tags %>
+    8:     <!--[if lt IE 9]>
+    9:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  
+app/views/layouts/application.html.erb:6
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:06:45 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 7000)
+Completed 500 Internal Server Error in 24ms (Allocations: 7347)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:     <%= csrf_meta_tags %>
+    8:     <!--[if lt IE 9]>
+    9:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  
+app/views/layouts/application.html.erb:6
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:06:48 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 6999)
+Completed 500 Internal Server Error in 26ms (Allocations: 7345)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:     <%= csrf_meta_tags %>
+    8:     <!--[if lt IE 9]>
+    9:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  
+app/views/layouts/application.html.erb:6
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:07:08 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 1739)
+Completed 200 OK in 14ms (Views: 12.7ms | Allocations: 2841)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:07:26 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1411)
+Completed 200 OK in 11ms (Views: 4.7ms | Allocations: 1786)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:07:28 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1411)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 1785)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:14:21 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.4ms | Allocations: 3708)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3772)
+Completed 500 Internal Server Error in 16ms (Allocations: 4825)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    14:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-15 00:17:36 +0300
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.5ms | Allocations: 246)
+  Rendered layout layouts/application.html.erb (Duration: 68.7ms | Allocations: 6570)
+Completed 200 OK in 110ms (Views: 84.8ms | ActiveRecord: 0.0ms | Allocations: 9159)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:17:45 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.2ms | Allocations: 4026)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 4091)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 4577)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    14:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:20:16 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 12.8ms | Allocations: 3594)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 3659)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 4012)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    14:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:34:37 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 3388)
+Completed 200 OK in 35ms (Views: 32.8ms | Allocations: 4481)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-15 00:35:20 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 130)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 3132)
+Completed 200 OK in 24ms (Views: 22.0ms | Allocations: 3633)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:36:06 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 10.4ms | Allocations: 3708)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 3772)
+Completed 500 Internal Server Error in 35ms (Allocations: 4825)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    14:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-15 00:36:09 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 130)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3391)
+Completed 200 OK in 16ms (Views: 14.1ms | Allocations: 3892)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:43:09 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 9.2ms | Allocations: 3592)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3656)
+Completed 500 Internal Server Error in 19ms (Allocations: 4003)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    14:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:46:23 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 12.1ms | Allocations: 3714)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 3778)
+Completed 500 Internal Server Error in 31ms (Allocations: 4836)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= image_tag('rails.png', alt: "Rails logo") %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:47:34 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 15.2ms | Allocations: 3717)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 3781)
+Completed 500 Internal Server Error in 31ms (Allocations: 4839)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag('rails.png', alt: "Rails logo"), 'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:48:02 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 21.5ms | Allocations: 3717)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 3781)
+Completed 500 Internal Server Error in 32ms (Allocations: 4839)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag('rails.png', alt: 'Rails logo'), 'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:13
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:49:19 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 158)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.7ms | Allocations: 3413)
+Completed 200 OK in 41ms (Views: 37.9ms | Allocations: 4499)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+  
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:52:23 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 161)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 3411)
+Completed 200 OK in 39ms (Views: 37.8ms | Allocations: 4499)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:52:26 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 3045)
+Completed 200 OK in 20ms (Views: 19.1ms | Allocations: 3420)
+
+
+Started GET "/user" for 127.0.0.1 at 2021-06-15 00:53:16 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:53:24 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3052)
+Completed 200 OK in 14ms (Views: 13.6ms | Allocations: 3430)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:55:11 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 8.9ms | Allocations: 3712)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3776)
+Completed 500 Internal Server Error in 18ms (Allocations: 4834)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    11: </div>
+    12: 
+    13: 
+    14: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    15:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:58:49 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 3413)
+Completed 200 OK in 27ms (Views: 25.6ms | Allocations: 4499)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:59:10 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1121)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1186)
+Completed 500 Internal Server Error in 15ms (Allocations: 2241)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+
+<%= link_to image_tag ("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
+):
+1:    <div class="center jumbotron">
+2:      <h1>Welcome to the Sample App</h1>
+3:    
+4:      <h2>
+5:        This is the home page for the
+6:        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+7:        sample application.
+8:      </h2>
+9:    
+10:      <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+11:    </div>
+12:    
+13:    
+14:    <%= link_to image_tag ("rails.png", alt: "Rails logo"),
+15:                'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14: syntax error, unexpected ',', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected ',', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected ',', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected ',', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected ',', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected ',', expecting ')'
+app/views/static_pages/home.html.erb:15: syntax error, unexpected ')', expecting `end'
+Started GET "/" for 127.0.0.1 at 2021-06-15 00:59:25 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 8.2ms | Allocations: 3711)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3775)
+Completed 500 Internal Server Error in 22ms (Allocations: 4833)
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.
+):
+    11: </div>
+    12: 
+    13: 
+    14: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    15:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:14
+Started GET "/" for 127.0.0.1 at 2021-06-15 22:56:05 +0300
+  [1m[35m (35.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 344.7ms | Allocations: 13800)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 499.4ms | Allocations: 17076)
+Completed 200 OK in 544ms (Views: 519.2ms | ActiveRecord: 0.0ms | Allocations: 19665)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-15 22:56:49 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 20.6ms | Allocations: 136)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.1ms | Allocations: 3144)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.0ms | Allocations: 3652)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 23:45:45 +0300
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 745.7ms | Allocations: 69740)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 847.7ms | Allocations: 84129)
+Completed 200 OK in 889ms (Views: 867.3ms | ActiveRecord: 0.0ms | Allocations: 86717)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 23:50:53 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 10.5ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 552.4ms | Allocations: 52907)
+Completed 200 OK in 554ms (Views: 553.3ms | ActiveRecord: 0.0ms | Allocations: 53287)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 23:51:32 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 490.8ms | Allocations: 54668)
+Completed 200 OK in 495ms (Views: 491.7ms | ActiveRecord: 0.0ms | Allocations: 55047)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 23:51:37 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.6ms | Allocations: 7179)
+Completed 200 OK in 51ms (Views: 45.5ms | ActiveRecord: 0.0ms | Allocations: 7553)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 23:51:51 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 478.1ms | Allocations: 57712)
+Completed 200 OK in 487ms (Views: 486.0ms | Allocations: 58086)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 23:52:27 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 496.0ms | Allocations: 57261)
+Completed 200 OK in 501ms (Views: 500.1ms | Allocations: 57640)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 23:52:40 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.9ms | Allocations: 7220)
+Completed 200 OK in 47ms (Views: 45.7ms | Allocations: 7595)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 23:52:42 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 7180)
+Completed 200 OK in 32ms (Views: 27.6ms | Allocations: 7554)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-15 23:58:39 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 597)
+  Rendered layout layouts/application.html.erb (Duration: 304.8ms | Allocations: 24731)
+Completed 500 Internal Server Error in 309ms (Allocations: 25082)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after '...rt "bootstrap";': expected 1 selector or at-rule, was "."
+        on line 2:21 of app/assets/stylesheets/custom.css.scss
+>> @import "bootstrap";
+
+   --------------------^
+):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    7: 
+    8:     <%= csrf_meta_tags %>
+  
+app/assets/stylesheets/custom.css.scss:2
+app/views/layouts/application.html.erb:5
+Started GET "/" for 127.0.0.1 at 2021-06-15 23:59:32 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.8ms | Allocations: 597)
+  Rendered layout layouts/application.html.erb (Duration: 406.3ms | Allocations: 31958)
+Completed 500 Internal Server Error in 408ms (Allocations: 32308)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after '...rt "bootstrap";': expected 1 selector or at-rule, was "."
+        on line 29:21 of app/assets/stylesheets/custom.css.scss
+>> @import "bootstrap";
+
+   --------------------^
+):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    7: 
+    8:     <%= csrf_meta_tags %>
+  
+app/assets/stylesheets/custom.css.scss:29
+app/views/layouts/application.html.erb:5
+Started GET "/" for 127.0.0.1 at 2021-06-15 23:59:49 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.3ms | Allocations: 597)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 605.4ms | Allocations: 56823)
+Completed 200 OK in 614ms (Views: 613.4ms | Allocations: 57197)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:01:09 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.6ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.8ms | Allocations: 7179)
+Completed 200 OK in 56ms (Views: 55.5ms | Allocations: 7556)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:01:12 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | Allocations: 7179)
+Completed 200 OK in 41ms (Views: 39.8ms | Allocations: 7556)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:01:14 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.0ms | Allocations: 7179)
+Completed 200 OK in 50ms (Views: 48.5ms | Allocations: 7556)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:02:08 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 534.9ms | Allocations: 56328)
+Completed 200 OK in 541ms (Views: 535.8ms | Allocations: 56702)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:02:43 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 489.0ms | Allocations: 57699)
+Completed 200 OK in 492ms (Views: 491.2ms | Allocations: 58073)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:15:16 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 716)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 7556)
+Completed 200 OK in 46ms (Views: 44.4ms | Allocations: 8642)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-16 00:15:20 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 136)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.4ms | Allocations: 6826)
+Completed 200 OK in 39ms (Views: 37.5ms | Allocations: 7330)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:16:32 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 713)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 7553)
+Completed 200 OK in 53ms (Views: 49.3ms | Allocations: 8640)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-16 00:16:35 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.3ms | Allocations: 130)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 6819)
+Completed 200 OK in 41ms (Views: 39.3ms | Allocations: 7319)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-16 00:16:37 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 6725)
+Completed 200 OK in 41ms (Views: 39.6ms | Allocations: 7100)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:16:44 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.8ms | Allocations: 7181)
+Completed 200 OK in 47ms (Views: 45.7ms | Allocations: 7558)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:16:47 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.4ms | Allocations: 7179)
+Completed 200 OK in 43ms (Views: 42.4ms | Allocations: 7556)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:20:22 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 13.1ms | Allocations: 711)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 7551)
+Completed 200 OK in 63ms (Views: 59.9ms | Allocations: 8632)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:20:27 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.2ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.7ms | Allocations: 7179)
+Completed 200 OK in 57ms (Views: 53.6ms | Allocations: 7554)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-16 00:20:29 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.9ms | Allocations: 130)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.8ms | Allocations: 6819)
+Completed 200 OK in 43ms (Views: 42.0ms | Allocations: 7318)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:25:25 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 719)
+  Rendered layout layouts/application.html.erb (Duration: 46.4ms | Allocations: 12094)
+Completed 500 Internal Server Error in 56ms (Allocations: 13157)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    8:     <%= csrf_meta_tags %>
+    9:     <%= render 'layouts/shim' %>
+   10:   </head>
+  
+app/views/layouts/application.html.erb:7
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-16 00:25:27 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 39.9ms | Allocations: 11384)
+Completed 500 Internal Server Error in 48ms (Allocations: 11857)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    8:     <%= csrf_meta_tags %>
+    9:     <%= render 'layouts/shim' %>
+   10:   </head>
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:25:32 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.1ms | Allocations: 598)
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | Allocations: 11750)
+Completed 500 Internal Server Error in 38ms (Allocations: 12097)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    8:     <%= csrf_meta_tags %>
+    9:     <%= render 'layouts/shim' %>
+   10:   </head>
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:27:02 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.2ms | Allocations: 714)
+  Rendered layout layouts/application.html.erb (Duration: 61.1ms | Allocations: 9779)
+Completed 500 Internal Server Error in 75ms (Allocations: 10842)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `reload' for #<ActionView::Base:0x00000000009f38>
+Did you mean?  load):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= javascript_include_tag "application", "data-turbolinks-track" => reload %>
+    8:     <%= csrf_meta_tags %>
+    9:     <%= render 'layouts/shim' %>
+   10:   </head>
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:27:05 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.4ms | Allocations: 598)
+  Rendered layout layouts/application.html.erb (Duration: 45.2ms | Allocations: 9440)
+Completed 500 Internal Server Error in 47ms (Allocations: 9787)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `reload' for #<ActionView::Base:0x0000000000a320>
+Did you mean?  load):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= javascript_include_tag "application", "data-turbolinks-track" => reload %>
+    8:     <%= csrf_meta_tags %>
+    9:     <%= render 'layouts/shim' %>
+   10:   </head>
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:27:07 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 597)
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 9438)
+Completed 500 Internal Server Error in 42ms (Allocations: 9784)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `reload' for #<ActionView::Base:0x0000000000a618>
+Did you mean?  load):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= javascript_include_tag "application", "data-turbolinks-track" => reload %>
+    8:     <%= csrf_meta_tags %>
+    9:     <%= render 'layouts/shim' %>
+   10:   </head>
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:27:23 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 8.1ms | Allocations: 715)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 7555)
+Completed 200 OK in 55ms (Views: 48.1ms | Allocations: 8641)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:32:12 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 547.0ms | Allocations: 56830)
+Completed 200 OK in 557ms (Views: 556.1ms | Allocations: 57205)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-06-16 00:32:16 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 6822)
+Completed 200 OK in 45ms (Views: 43.4ms | Allocations: 7322)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:35:22 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.2ms | Allocations: 715)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.8ms | Allocations: 109)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 48.7ms | Allocations: 8308)
+Completed 200 OK in 63ms (Views: 61.0ms | Allocations: 9395)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 00:35:53 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 714)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.8ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 229)
+  Rendered layouts/_footer.html.erb (Duration: 1.7ms | Allocations: 176)
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 8675)
+Completed 200 OK in 51ms (Views: 49.1ms | Allocations: 9762)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 01:01:21 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 39)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 79)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 56)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 7524)
+Completed 200 OK in 41ms (Views: 39.5ms | Allocations: 7899)
+
+
