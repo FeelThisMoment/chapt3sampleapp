@@ -7,6 +7,13 @@ Minitest::Reporters.use!
 
 
 class ActiveSupport::TestCase
+  #зміни для виконання вправ   після розділу 5 ----------довивчити
+  
+  #fixtures :all
+  #include ApplicationHelper
+
+  # кінець змін 
+
   # Run tests in parallel with specified workers
   parallelize(workers: :number_of_processors)
 

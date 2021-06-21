@@ -9,5 +9,10 @@ class SiteLayoutTest < ActionDispatch::IntegrationTest
     assert_select "a[href=?]", help_path
     assert_select "a[href=?]", about_path
     assert_select "a[href=?]", contact_path
+    # зміни для виконнання вправ       --розібратись що роблять
+    assert_select "a[href=?]", signup_path
+    get signup_path
+    # кінець змін 
+
   end
 end
