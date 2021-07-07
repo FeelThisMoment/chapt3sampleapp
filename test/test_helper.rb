@@ -7,7 +7,7 @@ Minitest::Reporters.use!
 
 
 class ActiveSupport::TestCase
-  #зміни для виконання вправ   після розділу 5 ----------довивчити
+  #зміни для виконання вправ   після розділу 5 ----------довивчити    бігом
   
   #fixtures :all
   #include ApplicationHelper
