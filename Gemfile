@@ -8,6 +8,7 @@ gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 gem 'bootstrap-sass',  '3.4.1'
 gem 'rails-controller-testing'
 gem 'devise'
+# Use bcrypt   for something   i dont know why ))))
 gem 'bcrypt'
 # Use sqlite3 as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
