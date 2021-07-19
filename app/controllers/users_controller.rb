@@ -6,9 +6,10 @@ class UsersController < ApplicationController
     @user = User.new
   end
   def create
-    @user = User.new(user_params)   # Не кінцева реалізація !
+    @user = User.new(user_params)   
     if @user.save
-      # Опрацювати успішне збереження.
+      flash[:success] = "Welcome to the Sample App!"
+      redirect_to @user
     else
       render 'new'
     end
