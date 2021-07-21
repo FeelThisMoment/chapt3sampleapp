@@ -6942,3 +6942,18 @@ Completed 200 OK in 49ms (Views: 47.6ms | ActiveRecord: 0.0ms | Allocations: 853
   [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(3726922741310841345)[0m
   [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   [1m[36mUser Load (41.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example@railstutorial.org"], ["LIMIT", 1]]
+Started GET "/signup" for 127.0.0.1 at 2021-07-21 21:50:17 +0300
+  [1m[35m (27.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 2.7ms | Allocations: 211)
+  Rendered users/new.html.erb within layouts/application (Duration: 37.6ms | Allocations: 5338)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 261)
+  Rendered layouts/_footer.html.erb (Duration: 4.0ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 286.3ms | Allocations: 26606)
+Completed 200 OK in 350ms (Views: 292.6ms | ActiveRecord: 12.3ms | Allocations: 33619)
+
+
